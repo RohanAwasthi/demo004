@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo004"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/demo004
+      title: "demo004"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/demo004'
+    jenkins.io/job-full-name: 'apache-azure-app/demo004'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/demo004
+    backstage.io/linguist: https://github.com/RohanAwasthi/demo004
+    azure.com/tag-selector: 'pid/demo004'
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/ey
